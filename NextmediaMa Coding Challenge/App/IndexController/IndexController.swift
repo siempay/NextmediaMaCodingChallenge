@@ -31,10 +31,16 @@ class IndexController: UIViewController {
  
 }
 
+/// Delegate of ShowCategoryController
 extension IndexController: ShowCategoryDelegate {
     
     func didLoadCategories() {
         
         self.postsController.fetchPosts()
+    }
+    
+    func didSelectCategory(category: ShowCategory?) {
+    
+        postsController.filterDataBy(category: category)
     }
 }

@@ -10,4 +10,9 @@ import Foundation
 protocol ShowCategoryDelegate {
     
     func didLoadCategories()
+    
+    /// On select category from menu: show list of posts
+    /// of the selected category
+    /// - parameter category: optional, nil means show all
+    func didSelectCategory(category: ShowCategory?)
 }

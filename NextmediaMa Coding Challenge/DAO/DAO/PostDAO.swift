@@ -48,17 +48,26 @@ final class PostDAO: IEntityDAO {
     }
      
     /// Fetch all existing items
-    func getAll(limit: Int, offset: Int) throws -> [DataPost] {
+    private func fetchAll(predicate: NSPredicate?, limit: Int, offset: Int) throws -> [DataPost] {
         
         let request: NSFetchRequest<M> = makeRequest(predicates: [])
         request.fetchLimit = limit
         request.fetchOffset = offset
+        request.predicate = predicate
         let result = try context.fetch(request)
         return result.map({ DataPost($0)})
     }
     
-    func findBy(id: Int64) throws -> Category? {
-        try findBy(id: id, on: context) as Category?
+    func getAll(limit: Int, offset: Int) throws -> [DataPost] {
+        
+        return try fetchAll(predicate: nil, limit: limit, offset: offset)
+    }
+    
+    /// Fetch all existing items
+    func getAllBy(categoryId: Int64, limit: Int, offset: Int) throws -> [DataPost] {
+        
+        let predicate = NSPredicate(format: "%K == %d", "category.id", categoryId)
+        return try fetchAll(predicate: predicate, limit: limit, offset: offset)
     }
     
     /// Create new Post and insert it

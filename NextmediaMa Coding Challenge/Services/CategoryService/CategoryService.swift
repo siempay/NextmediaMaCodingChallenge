@@ -77,4 +77,17 @@ class CategoryService {
         return items.map({.init($0)})
     }
     
+    /// Find Category by id if existe
+    func findCategoryBy(_ id: Int64) throws -> ShowCategory? {
+        
+        var item: CategoryDAO.DataCategory?
+        try CategoryDAO.perform { dao in
+            item = try dao.findBy(id: id)
+        }
+        
+        guard let _item = item else { return nil }
+        return .init(_item)
+    }
+    
+    
 }

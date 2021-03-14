@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Show categories in collectionView
 class ShowCategoryController: UIViewController {
 
     var categoryService: CategoryService!
@@ -29,6 +30,7 @@ class ShowCategoryController: UIViewController {
 
     // MARK: - Fetch data
     
+    /// get all categories from local storage
     func getAllCategories() {
         
         do{
@@ -40,6 +42,7 @@ class ShowCategoryController: UIViewController {
         }
     }
     
+    /// Called after fetching categories from API
     func reloadPosts() {
         getAllCategories()
         collectionView.reloadData()
@@ -89,6 +92,8 @@ extension ShowCategoryController: UICollectionViewDataSource, UICollectionViewDe
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! ShowCategoryCell
         
         if indexPath.section == 0 {
+            
+            // should add menu icon fontawesome
             cell.label.text = "Menu"
         }else{
             let item = data[indexPath.row]
@@ -99,5 +104,16 @@ extension ShowCategoryController: UICollectionViewDataSource, UICollectionViewDe
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        if indexPath.section == 0 {
+            self.delegate?.didSelectCategory(category: nil)
+
+        }else{
+            
+            print(#function, data[indexPath.row])
+            self.delegate?.didSelectCategory(category: data[indexPath.row])
+        }
+    }
     
 }

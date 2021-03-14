@@ -52,6 +52,25 @@ class ShowPostsController: UIViewController {
         }
     }
     
+    /// Called from index to show only selected category
+    func filterDataBy(category: ShowCategory?) {
+        
+        do{
+            self.posts = []
+            self.page = 0
+            if let id = category?.id {
+                self.posts = try postService.getAllPostsBy(categoryId: id, page: page)
+            }else{
+                getAllPosts()
+            }
+            self.tableView.reloadData()
+
+        }catch{
+            print(error)
+        }
+        
+    }
+    
     func reloadPosts() {
         
         getAllPosts()

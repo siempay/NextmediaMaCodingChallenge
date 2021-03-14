@@ -23,7 +23,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="570" height="146"/>
                     <color key="backgroundColor" red="0.47058823529999999" green="0.25098039220000001" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Svu-yn-Ws1">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Svu-yn-Ws1">
                     <rect key="frame" x="0.0" y="147" width="570" height="50"/>
                     <color key="backgroundColor" red="0.47058823529999999" green="0.25098039220000001" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>

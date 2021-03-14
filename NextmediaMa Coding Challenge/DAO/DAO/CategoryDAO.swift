@@ -34,6 +34,16 @@ final class CategoryDAO: IEntityDAO {
     }
     
     /// Fetch all existing items
+    func findBy(id: Int64) throws -> DataCategory? {
+        
+        let item: M? = try findBy(id: id, on: context)
+        
+        guard let _item = item else { return nil }
+        return .init(_item)
+    }
+    
+    
+    /// Fetch all existing items
     func getAll() throws -> [DataCategory] {
         
         let request: NSFetchRequest<M> = makeRequest(predicates: [])

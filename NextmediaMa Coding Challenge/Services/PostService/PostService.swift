@@ -101,4 +101,25 @@ class PostService {
         })
     }
     
+    func getAllPostsBy(categoryId: Int64, page: Int) throws -> [ShowPost] {
+        
+        let limit = 10
+        let offset = limit * page
+        
+        var items: [PostDAO.DataPost] = []
+        try PostDAO.perform { dao in
+            items = try dao.getAllBy(categoryId: categoryId, limit: limit, offset: offset)
+        }
+        
+        let category = try categoryService.findCategoryBy(categoryId)
+        
+        print(category)
+        print(items.count)
+        return items.map({ item in
+            var post = ShowPost(item)
+            post.category = category
+            return post
+        })
+    }
+    
 }
