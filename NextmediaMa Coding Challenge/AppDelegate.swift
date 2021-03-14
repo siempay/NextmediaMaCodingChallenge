@@ -17,8 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let rooterNavigator = UINavigationController(rootViewController: ShowPostsController())
-        self.window?.rootViewController = rooterNavigator
+        self.window?.rootViewController = UINavigationController(rootViewController: IndexController())
         self.window?.makeKeyAndVisible()
         
         return true

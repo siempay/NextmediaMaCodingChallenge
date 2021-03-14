@@ -12,6 +12,20 @@
 		DD3C6D3725FE7C50000FAAD0 /* PostDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D3625FE7C50000FAAD0 /* PostDAO.swift */; };
 		DD3C6D3D25FE7C72000FAAD0 /* IEntityDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D3C25FE7C72000FAAD0 /* IEntityDAO.swift */; };
 		DD3C6D4225FE8075000FAAD0 /* CategoryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D4125FE8075000FAAD0 /* CategoryDAO.swift */; };
+		DD3C6D4725FE84D7000FAAD0 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D4625FE84D7000FAAD0 /* Date+Formatter.swift */; };
+		DD3C6D5625FE8AAE000FAAD0 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D5525FE8AAE000FAAD0 /* CategoryService.swift */; };
+		DD3C6D5C25FE8B7A000FAAD0 /* DecodableCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D5B25FE8B7A000FAAD0 /* DecodableCategory.swift */; };
+		DD3C6D6125FE8BE9000FAAD0 /* ShowCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D6025FE8BE9000FAAD0 /* ShowCategory.swift */; };
+		DD3C6D6825FE8DD1000FAAD0 /* IndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D6625FE8DD1000FAAD0 /* IndexController.swift */; };
+		DD3C6D6925FE8DD1000FAAD0 /* IndexController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3C6D6725FE8DD1000FAAD0 /* IndexController.xib */; };
+		DD3C6D7325FE8EC5000FAAD0 /* ShowCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D7125FE8EC4000FAAD0 /* ShowCategoryController.swift */; };
+		DD3C6D7425FE8EC5000FAAD0 /* ShowCategoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3C6D7225FE8EC4000FAAD0 /* ShowCategoryController.xib */; };
+		DD3C6D7B25FE923E000FAAD0 /* ShowCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D7925FE923E000FAAD0 /* ShowCategoryCell.swift */; };
+		DD3C6D7C25FE923E000FAAD0 /* ShowCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3C6D7A25FE923E000FAAD0 /* ShowCategoryCell.xib */; };
+		DD3C6D8E25FE9792000FAAD0 /* ShowCategoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D8D25FE9792000FAAD0 /* ShowCategoryDelegate.swift */; };
+		DD3C6D9825FEA2DC000FAAD0 /* ShowPostDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D9625FEA2DC000FAAD0 /* ShowPostDetailController.swift */; };
+		DD3C6D9925FEA2DC000FAAD0 /* ShowPostDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3C6D9725FEA2DC000FAAD0 /* ShowPostDetailController.xib */; };
+		DD3C6D9E25FEB16A000FAAD0 /* String+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D9D25FEB16A000FAAD0 /* String+Html.swift */; };
 		DD49679E25FE4F3300153C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49679D25FE4F3300153C87 /* AppDelegate.swift */; };
 		DD4967A825FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */; };
 		DD4967AA25FE4F3600153C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4967A925FE4F3600153C87 /* Assets.xcassets */; };
@@ -58,6 +72,20 @@
 		DD3C6D3625FE7C50000FAAD0 /* PostDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDAO.swift; sourceTree = "<group>"; };
 		DD3C6D3C25FE7C72000FAAD0 /* IEntityDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEntityDAO.swift; sourceTree = "<group>"; };
 		DD3C6D4125FE8075000FAAD0 /* CategoryDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDAO.swift; sourceTree = "<group>"; };
+		DD3C6D4625FE84D7000FAAD0 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
+		DD3C6D5525FE8AAE000FAAD0 /* CategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
+		DD3C6D5B25FE8B7A000FAAD0 /* DecodableCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableCategory.swift; sourceTree = "<group>"; };
+		DD3C6D6025FE8BE9000FAAD0 /* ShowCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCategory.swift; sourceTree = "<group>"; };
+		DD3C6D6625FE8DD1000FAAD0 /* IndexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexController.swift; sourceTree = "<group>"; };
+		DD3C6D6725FE8DD1000FAAD0 /* IndexController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndexController.xib; sourceTree = "<group>"; };
+		DD3C6D7125FE8EC4000FAAD0 /* ShowCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCategoryController.swift; sourceTree = "<group>"; };
+		DD3C6D7225FE8EC4000FAAD0 /* ShowCategoryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowCategoryController.xib; sourceTree = "<group>"; };
+		DD3C6D7925FE923E000FAAD0 /* ShowCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCategoryCell.swift; sourceTree = "<group>"; };
+		DD3C6D7A25FE923E000FAAD0 /* ShowCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowCategoryCell.xib; sourceTree = "<group>"; };
+		DD3C6D8D25FE9792000FAAD0 /* ShowCategoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCategoryDelegate.swift; sourceTree = "<group>"; };
+		DD3C6D9625FEA2DC000FAAD0 /* ShowPostDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPostDetailController.swift; sourceTree = "<group>"; };
+		DD3C6D9725FEA2DC000FAAD0 /* ShowPostDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowPostDetailController.xib; sourceTree = "<group>"; };
+		DD3C6D9D25FEB16A000FAAD0 /* String+Html.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Html.swift"; sourceTree = "<group>"; };
 		DD49679A25FE4F3300153C87 /* NextmediaMaCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextmediaMaCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD49679D25FE4F3300153C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD4967A725FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NextmediaMa_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
@@ -156,6 +184,70 @@
 			path = IDAO;
 			sourceTree = "<group>";
 		};
+		DD3C6D5425FE8AA5000FAAD0 /* CategoryService */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D5A25FE8B71000FAAD0 /* Data */,
+				DD3C6D5525FE8AAE000FAAD0 /* CategoryService.swift */,
+			);
+			path = CategoryService;
+			sourceTree = "<group>";
+		};
+		DD3C6D5A25FE8B71000FAAD0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D5B25FE8B7A000FAAD0 /* DecodableCategory.swift */,
+				DD3C6D6025FE8BE9000FAAD0 /* ShowCategory.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DD3C6D6525FE8DA9000FAAD0 /* IndexController */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D6625FE8DD1000FAAD0 /* IndexController.swift */,
+				DD3C6D6725FE8DD1000FAAD0 /* IndexController.xib */,
+			);
+			path = IndexController;
+			sourceTree = "<group>";
+		};
+		DD3C6D7025FE8EB2000FAAD0 /* ShowCategory */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D8C25FE977B000FAAD0 /* Protocol */,
+				DD3C6D7825FE9222000FAAD0 /* Cell */,
+				DD3C6D7125FE8EC4000FAAD0 /* ShowCategoryController.swift */,
+				DD3C6D7225FE8EC4000FAAD0 /* ShowCategoryController.xib */,
+			);
+			path = ShowCategory;
+			sourceTree = "<group>";
+		};
+		DD3C6D7825FE9222000FAAD0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D7925FE923E000FAAD0 /* ShowCategoryCell.swift */,
+				DD3C6D7A25FE923E000FAAD0 /* ShowCategoryCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DD3C6D8C25FE977B000FAAD0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D8D25FE9792000FAAD0 /* ShowCategoryDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DD3C6D9225FEA2AD000FAAD0 /* ShowPostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D9625FEA2DC000FAAD0 /* ShowPostDetailController.swift */,
+				DD3C6D9725FEA2DC000FAAD0 /* ShowPostDetailController.xib */,
+			);
+			path = ShowPostDetail;
+			sourceTree = "<group>";
+		};
 		DD49679125FE4F3300153C87 = {
 			isa = PBXGroup;
 			children = (
@@ -212,8 +304,11 @@
 		DD4967D925FE4F5900153C87 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DD3C6D9225FEA2AD000FAAD0 /* ShowPostDetail */,
+				DD3C6D7025FE8EB2000FAAD0 /* ShowCategory */,
+				DD3C6D6525FE8DA9000FAAD0 /* IndexController */,
 				DD49680425FE517300153C87 /* HelperExtensions */,
-				DD4967F125FE50F200153C87 /* ShowProducts */,
+				DD4967F125FE50F200153C87 /* ShowPosts */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -237,14 +332,14 @@
 			path = DAO;
 			sourceTree = "<group>";
 		};
-		DD4967F125FE50F200153C87 /* ShowProducts */ = {
+		DD4967F125FE50F200153C87 /* ShowPosts */ = {
 			isa = PBXGroup;
 			children = (
 				DD4967F925FE513300153C87 /* Cell */,
 				DD4967F225FE510500153C87 /* ShowPostsController.swift */,
 				DD4967F325FE510500153C87 /* ShowPostsController.xib */,
 			);
-			path = ShowProducts;
+			path = ShowPosts;
 			sourceTree = "<group>";
 		};
 		DD4967F925FE513300153C87 /* Cell */ = {
@@ -263,6 +358,8 @@
 				DD49680525FE51B300153C87 /* UITableView+Register.swift */,
 				DD49680725FE51B300153C87 /* UIViewController+Alert.swift */,
 				DD49687025FE781C00153C87 /* UIDesignableLabel.swift */,
+				DD3C6D4625FE84D7000FAAD0 /* Date+Formatter.swift */,
+				DD3C6D9D25FEB16A000FAAD0 /* String+Html.swift */,
 			);
 			path = HelperExtensions;
 			sourceTree = "<group>";
@@ -270,6 +367,7 @@
 		DD49680E25FE51F700153C87 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				DD3C6D5425FE8AA5000FAAD0 /* CategoryService */,
 				DD49685225FE53FC00153C87 /* HelperExtensions */,
 				DD49681B25FE524B00153C87 /* NetworkService */,
 				DD49681425FE521100153C87 /* PostService */,
@@ -425,9 +523,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3C6D6925FE8DD1000FAAD0 /* IndexController.xib in Resources */,
 				DD4967AD25FE4F3600153C87 /* LaunchScreen.storyboard in Resources */,
 				DD4967AA25FE4F3600153C87 /* Assets.xcassets in Resources */,
+				DD3C6D9925FEA2DC000FAAD0 /* ShowPostDetailController.xib in Resources */,
 				DD4967FD25FE514000153C87 /* ShowPostCell.xib in Resources */,
+				DD3C6D7C25FE923E000FAAD0 /* ShowCategoryCell.xib in Resources */,
+				DD3C6D7425FE8EC5000FAAD0 /* ShowCategoryController.xib in Resources */,
 				DD4967F525FE510500153C87 /* ShowPostsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,22 +599,32 @@
 			files = (
 				DD49683025FE538700153C87 /* NetworkService.swift in Sources */,
 				DD49684B25FE53EE00153C87 /* String+Error.swift in Sources */,
+				DD3C6D9825FEA2DC000FAAD0 /* ShowPostDetailController.swift in Sources */,
 				DD3C6D3725FE7C50000FAAD0 /* PostDAO.swift in Sources */,
 				DD49679E25FE4F3300153C87 /* AppDelegate.swift in Sources */,
+				DD3C6D5C25FE8B7A000FAAD0 /* DecodableCategory.swift in Sources */,
 				DD3C6D1725FE7A87000FAAD0 /* DecodablePost.swift in Sources */,
 				DD49681725FE522200153C87 /* ShowPost.swift in Sources */,
 				DD3C6D4225FE8075000FAAD0 /* CategoryDAO.swift in Sources */,
 				DD49681025FE520900153C87 /* PostService.swift in Sources */,
 				DD4967F425FE510500153C87 /* ShowPostsController.swift in Sources */,
+				DD3C6D9E25FEB16A000FAAD0 /* String+Html.swift in Sources */,
 				DD49682425FE533E00153C87 /* NetworkServiceRoute.swift in Sources */,
 				DD3C6D2325FE7BF8000FAAD0 /* ContextController.swift in Sources */,
 				DD49680925FE51B300153C87 /* UIImageView+URL.swift in Sources */,
 				DD4967FC25FE514000153C87 /* ShowPostCell.swift in Sources */,
+				DD3C6D6125FE8BE9000FAAD0 /* ShowCategory.swift in Sources */,
 				DD4967A825FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld in Sources */,
 				DD3C6D3D25FE7C72000FAAD0 /* IEntityDAO.swift in Sources */,
+				DD3C6D8E25FE9792000FAAD0 /* ShowCategoryDelegate.swift in Sources */,
 				DD49680825FE51B300153C87 /* UITableView+Register.swift in Sources */,
+				DD3C6D7325FE8EC5000FAAD0 /* ShowCategoryController.swift in Sources */,
 				DD49687125FE781C00153C87 /* UIDesignableLabel.swift in Sources */,
+				DD3C6D7B25FE923E000FAAD0 /* ShowCategoryCell.swift in Sources */,
+				DD3C6D4725FE84D7000FAAD0 /* Date+Formatter.swift in Sources */,
 				DD49680A25FE51B300153C87 /* UIViewController+Alert.swift in Sources */,
+				DD3C6D6825FE8DD1000FAAD0 /* IndexController.swift in Sources */,
+				DD3C6D5625FE8AAE000FAAD0 /* CategoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,6 +793,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUAG7T3NQ7;
 				INFOPLIST_FILE = "NextmediaMa Coding Challenge/Info.plist";
@@ -688,8 +801,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.nextMediaMa.NextmediaMa-Coding-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siempay.nextMediaMa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -701,6 +815,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUAG7T3NQ7;
 				INFOPLIST_FILE = "NextmediaMa Coding Challenge/Info.plist";
@@ -708,8 +823,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.nextMediaMa.NextmediaMa-Coding-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siempay.nextMediaMa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
