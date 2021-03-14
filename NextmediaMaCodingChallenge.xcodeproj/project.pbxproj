@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DD49679E25FE4F3300153C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49679D25FE4F3300153C87 /* AppDelegate.swift */; };
-		DD4967A025FE4F3300153C87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49679F25FE4F3300153C87 /* SceneDelegate.swift */; };
-		DD4967A225FE4F3300153C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967A125FE4F3300153C87 /* ViewController.swift */; };
-		DD4967A525FE4F3300153C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4967A325FE4F3300153C87 /* Main.storyboard */; };
 		DD4967A825FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */; };
 		DD4967AA25FE4F3600153C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4967A925FE4F3600153C87 /* Assets.xcassets */; };
 		DD4967AD25FE4F3600153C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4967AB25FE4F3600153C87 /* LaunchScreen.storyboard */; };
 		DD4967B825FE4F3600153C87 /* NextmediaMa_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967B725FE4F3600153C87 /* NextmediaMa_Coding_ChallengeTests.swift */; };
 		DD4967C325FE4F3600153C87 /* NextmediaMa_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967C225FE4F3600153C87 /* NextmediaMa_Coding_ChallengeUITests.swift */; };
+		F19ED7973B540C42748F76C6 /* Pods_NextmediaMaCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C77398CDA976F7C9CE13D3A /* Pods_NextmediaMaCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +34,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD49679A25FE4F3300153C87 /* NextmediaMa Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NextmediaMa Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C77398CDA976F7C9CE13D3A /* Pods_NextmediaMaCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextmediaMaCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD49679A25FE4F3300153C87 /* NextmediaMaCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextmediaMaCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD49679D25FE4F3300153C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD49679F25FE4F3300153C87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD4967A125FE4F3300153C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD4967A425FE4F3300153C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD4967A725FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NextmediaMa_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
 		DD4967A925FE4F3600153C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4967AC25FE4F3600153C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD4967AE25FE4F3600153C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4967B325FE4F3600153C87 /* NextmediaMa Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NextmediaMa Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4967B325FE4F3600153C87 /* NextmediaMaCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextmediaMaCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4967B725FE4F3600153C87 /* NextmediaMa_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextmediaMa_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
 		DD4967B925FE4F3600153C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4967BE25FE4F3600153C87 /* NextmediaMa Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NextmediaMa Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4967BE25FE4F3600153C87 /* NextmediaMaCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextmediaMaCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4967C225FE4F3600153C87 /* NextmediaMa_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextmediaMa_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		DD4967C425FE4F3600153C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6EAE7E1C864AA31B44C9CB /* Pods-NextmediaMaCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextmediaMaCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F42EBFFE0CBDA3881D54D81A /* Pods-NextmediaMaCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextmediaMaCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19ED7973B540C42748F76C6 /* Pods_NextmediaMaCodingChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D11447FA53A7DA7589985B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE6EAE7E1C864AA31B44C9CB /* Pods-NextmediaMaCodingChallenge.debug.xcconfig */,
+				F42EBFFE0CBDA3881D54D81A /* Pods-NextmediaMaCodingChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		671A7C8376436F8D47C159A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C77398CDA976F7C9CE13D3A /* Pods_NextmediaMaCodingChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD49679125FE4F3300153C87 = {
 			isa = PBXGroup;
 			children = (
@@ -85,15 +102,17 @@
 				DD4967B625FE4F3600153C87 /* NextmediaMa Coding ChallengeTests */,
 				DD4967C125FE4F3600153C87 /* NextmediaMa Coding ChallengeUITests */,
 				DD49679B25FE4F3300153C87 /* Products */,
+				17D11447FA53A7DA7589985B /* Pods */,
+				671A7C8376436F8D47C159A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DD49679B25FE4F3300153C87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD49679A25FE4F3300153C87 /* NextmediaMa Coding Challenge.app */,
-				DD4967B325FE4F3600153C87 /* NextmediaMa Coding ChallengeTests.xctest */,
-				DD4967BE25FE4F3600153C87 /* NextmediaMa Coding ChallengeUITests.xctest */,
+				DD49679A25FE4F3300153C87 /* NextmediaMaCodingChallenge.app */,
+				DD4967B325FE4F3600153C87 /* NextmediaMaCodingChallengeTests.xctest */,
+				DD4967BE25FE4F3600153C87 /* NextmediaMaCodingChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +120,11 @@
 		DD49679C25FE4F3300153C87 /* NextmediaMa Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				DD4967DB25FE4F6900153C87 /* DAO */,
+				DD4967DA25FE4F5F00153C87 /* Resources */,
+				DD4967D925FE4F5900153C87 /* App */,
 				DD49679D25FE4F3300153C87 /* AppDelegate.swift */,
-				DD49679F25FE4F3300153C87 /* SceneDelegate.swift */,
-				DD4967A125FE4F3300153C87 /* ViewController.swift */,
-				DD4967A325FE4F3300153C87 /* Main.storyboard */,
-				DD4967A925FE4F3600153C87 /* Assets.xcassets */,
-				DD4967AB25FE4F3600153C87 /* LaunchScreen.storyboard */,
 				DD4967AE25FE4F3600153C87 /* Info.plist */,
-				DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */,
 			);
 			path = "NextmediaMa Coding Challenge";
 			sourceTree = "<group>";
@@ -131,29 +147,55 @@
 			path = "NextmediaMa Coding ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		DD4967D925FE4F5900153C87 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DD4967DA25FE4F5F00153C87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD4967A925FE4F3600153C87 /* Assets.xcassets */,
+				DD4967AB25FE4F3600153C87 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD4967DB25FE4F6900153C87 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD49679925FE4F3300153C87 /* NextmediaMa Coding Challenge */ = {
+		DD49679925FE4F3300153C87 /* NextmediaMaCodingChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4967C725FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMa Coding Challenge" */;
+			buildConfigurationList = DD4967C725FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMaCodingChallenge" */;
 			buildPhases = (
+				9D2529BA90E8339B1EE90E67 /* [CP] Check Pods Manifest.lock */,
 				DD49679625FE4F3300153C87 /* Sources */,
 				DD49679725FE4F3300153C87 /* Frameworks */,
 				DD49679825FE4F3300153C87 /* Resources */,
+				53DF299692C8FF5CD3FA6516 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NextmediaMa Coding Challenge";
+			name = NextmediaMaCodingChallenge;
 			productName = "NextmediaMa Coding Challenge";
-			productReference = DD49679A25FE4F3300153C87 /* NextmediaMa Coding Challenge.app */;
+			productReference = DD49679A25FE4F3300153C87 /* NextmediaMaCodingChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD4967B225FE4F3600153C87 /* NextmediaMa Coding ChallengeTests */ = {
+		DD4967B225FE4F3600153C87 /* NextmediaMaCodingChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4967CA25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMa Coding ChallengeTests" */;
+			buildConfigurationList = DD4967CA25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMaCodingChallengeTests" */;
 			buildPhases = (
 				DD4967AF25FE4F3600153C87 /* Sources */,
 				DD4967B025FE4F3600153C87 /* Frameworks */,
@@ -164,14 +206,14 @@
 			dependencies = (
 				DD4967B525FE4F3600153C87 /* PBXTargetDependency */,
 			);
-			name = "NextmediaMa Coding ChallengeTests";
+			name = NextmediaMaCodingChallengeTests;
 			productName = "NextmediaMa Coding ChallengeTests";
-			productReference = DD4967B325FE4F3600153C87 /* NextmediaMa Coding ChallengeTests.xctest */;
+			productReference = DD4967B325FE4F3600153C87 /* NextmediaMaCodingChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD4967BD25FE4F3600153C87 /* NextmediaMa Coding ChallengeUITests */ = {
+		DD4967BD25FE4F3600153C87 /* NextmediaMaCodingChallengeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4967CD25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMa Coding ChallengeUITests" */;
+			buildConfigurationList = DD4967CD25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMaCodingChallengeUITests" */;
 			buildPhases = (
 				DD4967BA25FE4F3600153C87 /* Sources */,
 				DD4967BB25FE4F3600153C87 /* Frameworks */,
@@ -182,9 +224,9 @@
 			dependencies = (
 				DD4967C025FE4F3600153C87 /* PBXTargetDependency */,
 			);
-			name = "NextmediaMa Coding ChallengeUITests";
+			name = NextmediaMaCodingChallengeUITests;
 			productName = "NextmediaMa Coding ChallengeUITests";
-			productReference = DD4967BE25FE4F3600153C87 /* NextmediaMa Coding ChallengeUITests.xctest */;
+			productReference = DD4967BE25FE4F3600153C87 /* NextmediaMaCodingChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD49679525FE4F3300153C87 /* Build configuration list for PBXProject "NextmediaMa Coding Challenge" */;
+			buildConfigurationList = DD49679525FE4F3300153C87 /* Build configuration list for PBXProject "NextmediaMaCodingChallenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD49679925FE4F3300153C87 /* NextmediaMa Coding Challenge */,
-				DD4967B225FE4F3600153C87 /* NextmediaMa Coding ChallengeTests */,
-				DD4967BD25FE4F3600153C87 /* NextmediaMa Coding ChallengeUITests */,
+				DD49679925FE4F3300153C87 /* NextmediaMaCodingChallenge */,
+				DD4967B225FE4F3600153C87 /* NextmediaMaCodingChallengeTests */,
+				DD4967BD25FE4F3600153C87 /* NextmediaMaCodingChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +278,6 @@
 			files = (
 				DD4967AD25FE4F3600153C87 /* LaunchScreen.storyboard in Resources */,
 				DD4967AA25FE4F3600153C87 /* Assets.xcassets in Resources */,
-				DD4967A525FE4F3300153C87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +297,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53DF299692C8FF5CD3FA6516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2529BA90E8339B1EE90E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextmediaMaCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD49679625FE4F3300153C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4967A225FE4F3300153C87 /* ViewController.swift in Sources */,
 				DD49679E25FE4F3300153C87 /* AppDelegate.swift in Sources */,
-				DD4967A025FE4F3300153C87 /* SceneDelegate.swift in Sources */,
 				DD4967A825FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,25 +370,17 @@
 /* Begin PBXTargetDependency section */
 		DD4967B525FE4F3600153C87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD49679925FE4F3300153C87 /* NextmediaMa Coding Challenge */;
+			target = DD49679925FE4F3300153C87 /* NextmediaMaCodingChallenge */;
 			targetProxy = DD4967B425FE4F3600153C87 /* PBXContainerItemProxy */;
 		};
 		DD4967C025FE4F3600153C87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD49679925FE4F3300153C87 /* NextmediaMa Coding Challenge */;
+			target = DD49679925FE4F3300153C87 /* NextmediaMaCodingChallenge */;
 			targetProxy = DD4967BF25FE4F3600153C87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD4967A325FE4F3300153C87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD4967A425FE4F3300153C87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD4967AB25FE4F3600153C87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +510,7 @@
 		};
 		DD4967C825FE4F3600153C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6EAE7E1C864AA31B44C9CB /* Pods-NextmediaMaCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +530,7 @@
 		};
 		DD4967C925FE4F3600153C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42EBFFE0CBDA3881D54D81A /* Pods-NextmediaMaCodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,7 +566,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextmediaMa Coding Challenge.app/NextmediaMa Coding Challenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextmediaMaCodingChallenge.app/NextmediaMaCodingChallenge";
 			};
 			name = Debug;
 		};
@@ -513,7 +588,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextmediaMa Coding Challenge.app/NextmediaMa Coding Challenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextmediaMaCodingChallenge.app/NextmediaMaCodingChallenge";
 			};
 			name = Release;
 		};
@@ -560,7 +635,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD49679525FE4F3300153C87 /* Build configuration list for PBXProject "NextmediaMa Coding Challenge" */ = {
+		DD49679525FE4F3300153C87 /* Build configuration list for PBXProject "NextmediaMaCodingChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD4967C525FE4F3600153C87 /* Debug */,
@@ -569,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4967C725FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMa Coding Challenge" */ = {
+		DD4967C725FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMaCodingChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD4967C825FE4F3600153C87 /* Debug */,
@@ -578,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4967CA25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMa Coding ChallengeTests" */ = {
+		DD4967CA25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMaCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD4967CB25FE4F3600153C87 /* Debug */,
@@ -587,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4967CD25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMa Coding ChallengeUITests" */ = {
+		DD4967CD25FE4F3600153C87 /* Build configuration list for PBXNativeTarget "NextmediaMaCodingChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD4967CE25FE4F3600153C87 /* Debug */,
