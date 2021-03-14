@@ -3,16 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3C6D1725FE7A87000FAAD0 /* DecodablePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D1625FE7A87000FAAD0 /* DecodablePost.swift */; };
+		DD3C6D2325FE7BF8000FAAD0 /* ContextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D2225FE7BF8000FAAD0 /* ContextController.swift */; };
+		DD3C6D3725FE7C50000FAAD0 /* PostDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D3625FE7C50000FAAD0 /* PostDAO.swift */; };
+		DD3C6D3D25FE7C72000FAAD0 /* IEntityDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D3C25FE7C72000FAAD0 /* IEntityDAO.swift */; };
+		DD3C6D4225FE8075000FAAD0 /* CategoryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C6D4125FE8075000FAAD0 /* CategoryDAO.swift */; };
 		DD49679E25FE4F3300153C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49679D25FE4F3300153C87 /* AppDelegate.swift */; };
 		DD4967A825FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */; };
 		DD4967AA25FE4F3600153C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4967A925FE4F3600153C87 /* Assets.xcassets */; };
 		DD4967AD25FE4F3600153C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4967AB25FE4F3600153C87 /* LaunchScreen.storyboard */; };
 		DD4967B825FE4F3600153C87 /* NextmediaMa_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967B725FE4F3600153C87 /* NextmediaMa_Coding_ChallengeTests.swift */; };
 		DD4967C325FE4F3600153C87 /* NextmediaMa_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967C225FE4F3600153C87 /* NextmediaMa_Coding_ChallengeUITests.swift */; };
+		DD4967F425FE510500153C87 /* ShowPostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967F225FE510500153C87 /* ShowPostsController.swift */; };
+		DD4967F525FE510500153C87 /* ShowPostsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4967F325FE510500153C87 /* ShowPostsController.xib */; };
+		DD4967FC25FE514000153C87 /* ShowPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4967FA25FE514000153C87 /* ShowPostCell.swift */; };
+		DD4967FD25FE514000153C87 /* ShowPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4967FB25FE514000153C87 /* ShowPostCell.xib */; };
+		DD49680825FE51B300153C87 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49680525FE51B300153C87 /* UITableView+Register.swift */; };
+		DD49680925FE51B300153C87 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49680625FE51B300153C87 /* UIImageView+URL.swift */; };
+		DD49680A25FE51B300153C87 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49680725FE51B300153C87 /* UIViewController+Alert.swift */; };
+		DD49681025FE520900153C87 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49680F25FE520900153C87 /* PostService.swift */; };
+		DD49681725FE522200153C87 /* ShowPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49681625FE522200153C87 /* ShowPost.swift */; };
+		DD49682425FE533E00153C87 /* NetworkServiceRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49682325FE533E00153C87 /* NetworkServiceRoute.swift */; };
+		DD49683025FE538700153C87 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49682F25FE538700153C87 /* NetworkService.swift */; };
+		DD49684B25FE53EE00153C87 /* String+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49684A25FE53EE00153C87 /* String+Error.swift */; };
+		DD49687125FE781C00153C87 /* UIDesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49687025FE781C00153C87 /* UIDesignableLabel.swift */; };
 		F19ED7973B540C42748F76C6 /* Pods_NextmediaMaCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C77398CDA976F7C9CE13D3A /* Pods_NextmediaMaCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +53,11 @@
 
 /* Begin PBXFileReference section */
 		2C77398CDA976F7C9CE13D3A /* Pods_NextmediaMaCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextmediaMaCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3C6D1625FE7A87000FAAD0 /* DecodablePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodablePost.swift; sourceTree = "<group>"; };
+		DD3C6D2225FE7BF8000FAAD0 /* ContextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextController.swift; sourceTree = "<group>"; };
+		DD3C6D3625FE7C50000FAAD0 /* PostDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDAO.swift; sourceTree = "<group>"; };
+		DD3C6D3C25FE7C72000FAAD0 /* IEntityDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEntityDAO.swift; sourceTree = "<group>"; };
+		DD3C6D4125FE8075000FAAD0 /* CategoryDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDAO.swift; sourceTree = "<group>"; };
 		DD49679A25FE4F3300153C87 /* NextmediaMaCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextmediaMaCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD49679D25FE4F3300153C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD4967A725FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NextmediaMa_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
@@ -47,6 +70,19 @@
 		DD4967BE25FE4F3600153C87 /* NextmediaMaCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextmediaMaCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4967C225FE4F3600153C87 /* NextmediaMa_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextmediaMa_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		DD4967C425FE4F3600153C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4967F225FE510500153C87 /* ShowPostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPostsController.swift; sourceTree = "<group>"; };
+		DD4967F325FE510500153C87 /* ShowPostsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowPostsController.xib; sourceTree = "<group>"; };
+		DD4967FA25FE514000153C87 /* ShowPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPostCell.swift; sourceTree = "<group>"; };
+		DD4967FB25FE514000153C87 /* ShowPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowPostCell.xib; sourceTree = "<group>"; };
+		DD49680525FE51B300153C87 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
+		DD49680625FE51B300153C87 /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
+		DD49680725FE51B300153C87 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		DD49680F25FE520900153C87 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		DD49681625FE522200153C87 /* ShowPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPost.swift; sourceTree = "<group>"; };
+		DD49682325FE533E00153C87 /* NetworkServiceRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceRoute.swift; sourceTree = "<group>"; };
+		DD49682F25FE538700153C87 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DD49684A25FE53EE00153C87 /* String+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Error.swift"; sourceTree = "<group>"; };
+		DD49687025FE781C00153C87 /* UIDesignableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignableLabel.swift; sourceTree = "<group>"; };
 		DE6EAE7E1C864AA31B44C9CB /* Pods-NextmediaMaCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextmediaMaCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		F42EBFFE0CBDA3881D54D81A /* Pods-NextmediaMaCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextmediaMaCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-NextmediaMaCodingChallenge/Pods-NextmediaMaCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +119,6 @@
 				DE6EAE7E1C864AA31B44C9CB /* Pods-NextmediaMaCodingChallenge.debug.xcconfig */,
 				F42EBFFE0CBDA3881D54D81A /* Pods-NextmediaMaCodingChallenge.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,6 +128,32 @@
 				2C77398CDA976F7C9CE13D3A /* Pods_NextmediaMaCodingChallenge.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3C6D2125FE7BE7000FAAD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */,
+				DD3C6D2225FE7BF8000FAAD0 /* ContextController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD3C6D2A25FE7C24000FAAD0 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D3625FE7C50000FAAD0 /* PostDAO.swift */,
+				DD3C6D4125FE8075000FAAD0 /* CategoryDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		DD3C6D3B25FE7C67000FAAD0 /* IDAO */ = {
+			isa = PBXGroup;
+			children = (
+				DD3C6D3C25FE7C72000FAAD0 /* IEntityDAO.swift */,
+			);
+			path = IDAO;
 			sourceTree = "<group>";
 		};
 		DD49679125FE4F3300153C87 = {
@@ -120,6 +181,7 @@
 		DD49679C25FE4F3300153C87 /* NextmediaMa Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				DD49680E25FE51F700153C87 /* Services */,
 				DD4967DB25FE4F6900153C87 /* DAO */,
 				DD4967DA25FE4F5F00153C87 /* Resources */,
 				DD4967D925FE4F5900153C87 /* App */,
@@ -150,6 +212,8 @@
 		DD4967D925FE4F5900153C87 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DD49680425FE517300153C87 /* HelperExtensions */,
+				DD4967F125FE50F200153C87 /* ShowProducts */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -166,9 +230,94 @@
 		DD4967DB25FE4F6900153C87 /* DAO */ = {
 			isa = PBXGroup;
 			children = (
-				DD4967A625FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld */,
+				DD3C6D3B25FE7C67000FAAD0 /* IDAO */,
+				DD3C6D2A25FE7C24000FAAD0 /* DAO */,
+				DD3C6D2125FE7BE7000FAAD0 /* Model */,
 			);
 			path = DAO;
+			sourceTree = "<group>";
+		};
+		DD4967F125FE50F200153C87 /* ShowProducts */ = {
+			isa = PBXGroup;
+			children = (
+				DD4967F925FE513300153C87 /* Cell */,
+				DD4967F225FE510500153C87 /* ShowPostsController.swift */,
+				DD4967F325FE510500153C87 /* ShowPostsController.xib */,
+			);
+			path = ShowProducts;
+			sourceTree = "<group>";
+		};
+		DD4967F925FE513300153C87 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD4967FA25FE514000153C87 /* ShowPostCell.swift */,
+				DD4967FB25FE514000153C87 /* ShowPostCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DD49680425FE517300153C87 /* HelperExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD49680625FE51B300153C87 /* UIImageView+URL.swift */,
+				DD49680525FE51B300153C87 /* UITableView+Register.swift */,
+				DD49680725FE51B300153C87 /* UIViewController+Alert.swift */,
+				DD49687025FE781C00153C87 /* UIDesignableLabel.swift */,
+			);
+			path = HelperExtensions;
+			sourceTree = "<group>";
+		};
+		DD49680E25FE51F700153C87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD49685225FE53FC00153C87 /* HelperExtensions */,
+				DD49681B25FE524B00153C87 /* NetworkService */,
+				DD49681425FE521100153C87 /* PostService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DD49681425FE521100153C87 /* PostService */ = {
+			isa = PBXGroup;
+			children = (
+				DD49681525FE521A00153C87 /* Data */,
+				DD49680F25FE520900153C87 /* PostService.swift */,
+			);
+			path = PostService;
+			sourceTree = "<group>";
+		};
+		DD49681525FE521A00153C87 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DD49681625FE522200153C87 /* ShowPost.swift */,
+				DD3C6D1625FE7A87000FAAD0 /* DecodablePost.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DD49681B25FE524B00153C87 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				DD49682F25FE538700153C87 /* NetworkService.swift */,
+				DD49682E25FE537000153C87 /* Enum */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		DD49682E25FE537000153C87 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DD49682325FE533E00153C87 /* NetworkServiceRoute.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		DD49685225FE53FC00153C87 /* HelperExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD49684A25FE53EE00153C87 /* String+Error.swift */,
+			);
+			path = HelperExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +427,8 @@
 			files = (
 				DD4967AD25FE4F3600153C87 /* LaunchScreen.storyboard in Resources */,
 				DD4967AA25FE4F3600153C87 /* Assets.xcassets in Resources */,
+				DD4967FD25FE514000153C87 /* ShowPostCell.xib in Resources */,
+				DD4967F525FE510500153C87 /* ShowPostsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,8 +495,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD49683025FE538700153C87 /* NetworkService.swift in Sources */,
+				DD49684B25FE53EE00153C87 /* String+Error.swift in Sources */,
+				DD3C6D3725FE7C50000FAAD0 /* PostDAO.swift in Sources */,
 				DD49679E25FE4F3300153C87 /* AppDelegate.swift in Sources */,
+				DD3C6D1725FE7A87000FAAD0 /* DecodablePost.swift in Sources */,
+				DD49681725FE522200153C87 /* ShowPost.swift in Sources */,
+				DD3C6D4225FE8075000FAAD0 /* CategoryDAO.swift in Sources */,
+				DD49681025FE520900153C87 /* PostService.swift in Sources */,
+				DD4967F425FE510500153C87 /* ShowPostsController.swift in Sources */,
+				DD49682425FE533E00153C87 /* NetworkServiceRoute.swift in Sources */,
+				DD3C6D2325FE7BF8000FAAD0 /* ContextController.swift in Sources */,
+				DD49680925FE51B300153C87 /* UIImageView+URL.swift in Sources */,
+				DD4967FC25FE514000153C87 /* ShowPostCell.swift in Sources */,
 				DD4967A825FE4F3300153C87 /* NextmediaMa_Coding_Challenge.xcdatamodeld in Sources */,
+				DD3C6D3D25FE7C72000FAAD0 /* IEntityDAO.swift in Sources */,
+				DD49680825FE51B300153C87 /* UITableView+Register.swift in Sources */,
+				DD49687125FE781C00153C87 /* UIDesignableLabel.swift in Sources */,
+				DD49680A25FE51B300153C87 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
