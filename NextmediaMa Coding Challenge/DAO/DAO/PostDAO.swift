@@ -23,12 +23,14 @@ final class PostDAO: IEntityDAO {
         
         let id: Int64
         let title: String?
+        let content: String?
         let date: Date?
         let categoryId: Int64?
  
         init(_ item: M) {
             self.id = item.id
             self.title = item.title
+            self.content = item.content
             self.date = item.date
             self.categoryId = item.category?.id
         }
@@ -46,35 +48,46 @@ final class PostDAO: IEntityDAO {
     }
      
     /// Fetch all existing items
-    func getAll() throws -> [DataPost] {
+    func getAll(limit: Int, offset: Int) throws -> [DataPost] {
         
-        let request = makeRequest(predicates: [])
+        let request: NSFetchRequest<M> = makeRequest(predicates: [])
+        request.fetchLimit = limit
+        request.fetchOffset = offset
         let result = try context.fetch(request)
         return result.map({ DataPost($0)})
     }
     
+    func findBy(id: Int64) throws -> Category? {
+        try findBy(id: id, on: context) as Category?
+    }
+    
     /// Create new Post and insert it
     @discardableResult
-    func createBy(
+    func createOrUpdateBy(
         id: Int64,
         title: String?,
+        content: String?,
         date: Date?,
         categoryId: Int64?
     ) throws -> DataPost {
         
-        let item = Post.init(context: context)
-        item.id = id
-        item.title = title
-        item.date = date
-        item.category = nil
+        var item: M? = try findBy(id: id, on: context)
+        
+        if item == nil {
+            item = Post.init(context: context)
+        }
+        
+        item?.title = title
+        item?.content = content
+        item?.date = date
+        item?.category = nil
         if let _categoryId = categoryId {
-            item.category = try findBy(id: _categoryId, on: context)
+            item?.category = try findBy(id: _categoryId, on: context)
         }
         try context.save()
         
-        return .init(item)
+        return .init(item!)
     }
-     
 }
 
 

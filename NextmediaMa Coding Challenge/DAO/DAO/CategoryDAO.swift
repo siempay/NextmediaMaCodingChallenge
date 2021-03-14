@@ -28,7 +28,7 @@ final class CategoryDAO: IEntityDAO {
     /// This class can be accessed only throu the `.preform` action
     /// - parameter context: depending on where we are calling this,
     /// the context can be viewContext or background
-    internal init(context: NSManagedObjectContext) {
+     init(context: NSManagedObjectContext) {
         
         self.context = context
     }
@@ -36,25 +36,34 @@ final class CategoryDAO: IEntityDAO {
     /// Fetch all existing items
     func getAll() throws -> [DataCategory] {
         
-        let request = makeRequest(predicates: [])
+        let request: NSFetchRequest<M> = makeRequest(predicates: [])
         let result = try context.fetch(request)
         return result.map({ DataCategory($0)})
     }
     
     /// Create new Category and insert it
     @discardableResult
-    func createBy(
+    func createOrUpdateBy(
         id: Int64,
         title: String?
     ) throws -> DataCategory {
         
-        let item = Category.init(context: context)
-        item.id = id
-        item.title = title
-       
-        try context.save()
+        let foundItem = try findBy(id: id, on: context) as M?
         
-        return .init(item)
+        if let item = foundItem {
+            
+            item.title = title
+            try context.save()
+            return .init(item)
+            
+        }else{
+            
+            let item = Category.init(context: context)
+            item.id = id
+            item.title = title
+            try context.save()
+            return .init(item)
+        }
     }
     
 }

@@ -19,17 +19,17 @@ protocol IEntityDAO {
     
     init(context: NSManagedObjectContext)
     
-    func findBy<M>(id: Int64, on context: NSManagedObjectContext) throws -> M?
-    
+    func findBy<Model: NSManagedObject>(id: Int64, on context: NSManagedObjectContext) throws -> Model?
+
 }
 
 extension IEntityDAO {
     
     /// Create new fetch request for entity
     /// - returns: fetch request
-    func makeRequest(predicates: [NSPredicate]) -> NSFetchRequest<M> {
+    func makeRequest<Model: NSManagedObject>(predicates: [NSPredicate]) -> NSFetchRequest<Model> {
         
-        let request = NSFetchRequest<M>.init(entityName: String.init(describing: M.self))
+        let request = NSFetchRequest<Model>.init(entityName: String.init(describing: Model.self))
         request.predicate = NSCompoundPredicate(andPredicateWithSubpredicates: predicates)
         return request
     }
@@ -56,10 +56,10 @@ extension IEntityDAO {
     }
     
     /// Find Element By id if existe or return nil
-    func findBy<M>(id: Int64, on context: NSManagedObjectContext) throws -> M? {
+    func findBy<Model: NSManagedObject>(id: Int64, on context: NSManagedObjectContext) throws -> Model? {
         
-        let request = makeRequest(predicates: [.init(format: "%K = %d", "id", id)])
+        let request: NSFetchRequest<Model> = makeRequest(predicates: [.init(format: "%K = %d", "id", id)])
         request.fetchLimit = 1
-        return try context.fetch(request).first as? M
+        return try context.fetch(request).first
     }
 }
